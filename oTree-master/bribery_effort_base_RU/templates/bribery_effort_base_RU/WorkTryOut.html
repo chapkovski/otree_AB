@@ -1,0 +1,146 @@
+{% extends "otree/FormPage.html" %}
+{% load staticfiles otree %}
+
+{% block title %}
+    Задание
+{% endblock %}
+
+{% block content %}
+
+    <head>
+        <style>
+            th, td {
+                padding: 2px 2px 2px 2px;
+            }
+
+            table#box1 {
+                background-color: #ecf2f9;
+            }
+
+            table#box2 {
+                background-color: #ecf2f9;
+            }
+            .alert {margin-bottom: 0 }
+            .page-header {  padding-bottom: 0;
+                            padding-top: 0}
+
+        </style>
+    </head>
+
+    <p>
+        Задание состоит в том, чтобы найти <b>наибольшее число в каждой из матриц</b>
+и затем <b>сложить их</b>.
+<br>
+   Запишите Ваш ответ в ячейку ниже.
+    </p>
+
+    <table style="width:100%">
+        <tr>
+            <th class="box-heading"> Матрица 1</th>
+            <th></th>
+            <th class="box-heading"> Матрица 2</th>
+        </tr>
+        <tr>
+
+            <!-- NEST ANOTHER TABLE! -->
+            <td class="table-borders">
+                <table class="table-style" style="width:99%" id="box1">
+                </table>
+            </td>
+
+            <!-- Some space -->
+            <td>
+
+            </td>
+            <!-- NEST ANOTHER TABLE! -->
+            <td class="table-borders">
+                <table class="table-style" style="width:99%" id="box2">
+
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+    <table>
+    <tr>
+        <td>
+            <div>Ваш ответ:</div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+
+            <input type="number" id="answer" class="offer" style="background-color: white" required>
+            <button class="answer" type="button" style="background-color: whitesmoke;
+            color: navy;
+            padding: 1px 10px 1px 10px;
+            border: groove;
+            border-color: lightsteelblue;
+            font-weight: bold;
+            margin: 1px;"
+            >Отправить</button>
+        </td>
+        <td>
+            <span id="feedback"></span>
+        </td>
+
+    </tr>
+    </table>
+    <table>
+    <tr>
+        <td>
+            Всего попыток:
+        </td>
+        <td>
+            <span id="tasks_attempted">{{ player.tasks_attempted }}</span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Всего верных ответов:
+        </td>
+        <td>
+            <span id="tasks_correct"> {{ player.tasks_correct }}</span>
+        </td>
+    </tr>
+    </table>
+
+
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        $(document).ready(function () {
+            $(window).keydown(function (event) {
+                if (event.keyCode === 13) {
+                    event.preventDefault();
+                    return false;
+                }
+            });
+        });
+    </script>
+    {% include 'bribery_effort_base_RU/js_work_page.html' %}
+
+    <script>
+        $("button.answer").on("click", function () {
+            if ($('input#answer').val()) {
+                var msg = {
+                    'answer': $('input#answer').val()
+                };
+                if (socket.readyState === socket.OPEN) {
+                    socket.send(JSON.stringify(msg));
+                }
+            }
+        });
+
+        $("input#answer").keyup(function (event) {
+            if (event.keyCode === 13) {
+                event.preventDefault();
+                $("button.answer").click();
+            }
+        });
+
+
+    </script>
+{% endblock %}

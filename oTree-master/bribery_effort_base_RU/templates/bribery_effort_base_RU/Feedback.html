@@ -1,0 +1,43 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree %}
+
+{% block title %}Вопрос на понимание{% endblock %}
+
+{% block content %}
+
+
+{% if player.training_answer_A == Constants.training_answer_A_correct %}
+    <p class="text-success">
+    Ваш ответ {{player.training_answer_A}} очков для игрока А верен.
+    </p>
+{% else %}
+    <p class="text-danger">
+    Ваш ответ {{player.training_answer_A}} очков для игрока А не верен.
+
+    </p>
+{% endif %}
+
+{% if player.training_answer_B == Constants.training_answer_B_correct %}
+    <p class="text-success">
+    Ваш ответ {{player.training_answer_B}} очков для игрока В верен.
+    </p>
+{% else %}
+    <p class="text-danger">
+    Ваш ответ {{player.training_answer_B}} очков для игрока В не верен.
+
+    </p>
+{% endif %}
+
+{% if player.training_answer_C == Constants.training_answer_C_correct %}
+    <p class="text-success">
+    Ваш ответ {{player.training_answer_C}} очков для судьи верен.
+    </p>
+{% else %}
+    <p class="text-danger">
+    Ваш ответ {{player.training_answer_C}} очков для судьи не верен.
+
+    </p>
+{% endif %}
+
+{% next_button %}
+{% endblock %}

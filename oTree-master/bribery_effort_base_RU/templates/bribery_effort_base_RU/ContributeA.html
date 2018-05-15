@@ -1,0 +1,17 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree %}
+
+
+{% block title %}
+    Игра: Ваш перевод
+{% endblock %}
+
+{% block content %}
+
+        <p> Ваша оценка {{ player.tasks_correct }} очков. Сейчас у Вас {{Constants.endowment|json}} очков .  </p>
+          {% formfield group.contribution_A label="Какую сумму Вы хотите перевести судье?" %}
+
+
+    {% next_button %}
+
+{% endblock %}
