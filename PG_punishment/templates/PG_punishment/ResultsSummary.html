@@ -1,0 +1,50 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Принятие решений III - результаты для участника {{ player.id_in_group }}
+{% endblock %}
+
+{% block content %}
+
+{#    <table class="table">#}
+{#        <tr>#}
+{#            <th>Round</th>#}
+{#            <th>Player and outcome</th>#}
+{#        </tr>#}
+{#        {% for p in player_in_all_rounds %}#}
+{#            <tr>#}
+{#                <td>Вы участник You were the {{ p.role }} and {% if p.is_winner %} won {% else %} lost {% endif %}</td>#}
+{#            </tr>#}
+{#        {% endfor %}#}
+{#    </table>#}
+
+    <p>
+{#        The paying round was {{ paying_round }}.#}
+        В этой игре вы заработали {{ total_payoff}} рублей.
+
+        <br> <br>
+
+        Вы внесли на общий счет {{ total_contribution}}
+
+        <br> <br>
+
+        К вам были применены вычеты на общую сумму {{ total_punishment }}
+
+        <br> <br>
+        На ваши вычеты вы потратили {{ total_puncost }}
+{#        {% if global.outcome == 1 %}#}
+{#        {% else %}#}
+
+        <br> <br>
+
+        Ваш итоговый выигрыш составил {{ total_profit}}
+{#        {% endif %}#}
+
+        <br> <br>
+
+        Пожалуйста, дождитесь окончания!
+    </p>
+
+    {% next_button %}
+{% endblock %}

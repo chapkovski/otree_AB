@@ -1,0 +1,125 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Принятие решений - результаты участника {{ player.id_in_group }} после раунда {{ current_round }}.
+{% endblock %}
+
+{% block content %}
+<p>
+
+{#<!-- {% include 'PG_threshold/Instructions.html' %} -->#}
+
+    В начале раунда у вас было {{ Constants.endowment }}.
+<br> <br>
+    Вы внесли на общий счет {{ player.contribution }}.
+<br> <br>
+    Всего ваша группа внесла на общий счет {{ group.total_contribution }}.
+<br> <br>
+    Ваша доля от доходов с общего счета составила {{ group.individual_share }}.
+<br> <br>
+    Ваш общий доход в текущем раунде равен {{ player.payoff }}.
+<br> <br>
+    У вас было вычтено {{ player.pun }}.
+<br> <br>
+    Вы потратили на вычеты {{ player.puncost }}.
+<br> <br>
+    Ваш итоговый доход за текущий период (добавлено на ваш счет) {{ player.profit }}.
+
+</p>
+    <br>
+
+     <table class="table-condensed" style="width:500px; margin-top:20px;">
+
+           <tr><td>Ваш (участника {{ player.id_in_group }}) накопленный доход составляет </td><td> {{ player.my_profit }}</td></tr>
+        <tr><td>Сумма ваших (участника {{ player.id_in_group }}) взносов на общий счет равна </td><td>{{ player.contribution}}</td></tr>
+    </table>
+
+     <br>
+
+    <b>Результаты всех участников</b>
+
+    <br>
+
+    <table class="table-condensed" style="width:500px; margin-top:20px;">
+
+        <tr><td> </td><td> Накопленный доход </td><td> Сумма взносов </td></tr>
+        <tr><td> Участник 1 </td><td> {{ my_in_all_rounds_1}} </td><td> {{ p1_sumcontr}} </td></tr>
+        <tr><td> Участник 2 </td><td> {{ my_in_all_rounds_2}} </td><td> {{ p2_sumcontr}}  </td></tr>
+        <tr><td> Участник 3 </td><td> {{ my_in_all_rounds_3}} </td><td> {{ p3_sumcontr}} </td></tr>
+        <tr><td> Участник 4 </td><td> {{ my_in_all_rounds_4}} </td><td> {{ p4_sumcontr}} </td></tr>
+        <tr><td> Участник 5 </td><td> {{ my_in_all_rounds_5}} </td><td> {{ p5_sumcontr}} </td></tr>
+
+        <td><td></td></tr>
+
+    </table>
+
+
+{#    <table class="table-condensed" style="width:500px; margin-top:20px;">#}
+{##}
+{#        <tr><td> Накопленный доход участника 1 составляет </td><td> {{ my_in_all_rounds_1}} </td></tr>#}
+{#        <tr><td> Накопленный доход участника 2 составляет </td><td> {{ my_in_all_rounds_2}} </td></tr>#}
+{#        <tr><td> Накопленный доход участника 3 составляет </td><td> {{ my_in_all_rounds_3}} </td></tr>#}
+{#        <tr><td> Накопленный доход участника 4 составляет </td><td> {{ my_in_all_rounds_4}} </td></tr>#}
+{#        <tr><td> Накопленный доход участника 5 составляет </td><td> {{ my_in_all_rounds_5}} </td></tr>#}
+{##}
+{#        <td><td></td></tr>#}
+{##}
+{#        <tr><td> Сумма взносов участника 1 равна </td><td> {{ p1_sumcontr}} </td></tr>#}
+{#        <tr><td> Сумма взносов участника 2 равна </td><td> {{ p2_sumcontr}} </td></tr>#}
+{#        <tr><td> Сумма взносов участника 3 равна </td><td> {{ p3_sumcontr}} </td></tr>#}
+{#        <tr><td> Сумма взносов участника 4 равна </td><td> {{ p4_sumcontr}} </td></tr>#}
+{#        <tr><td> Сумма взносов участника 5 равна </td><td> {{ p5_sumcontr}} </td></tr>#}
+{#    </table>#}
+
+{#     <table class="table-condensed" style="width:500px; margin-top:20px;">#}
+{#    {% if player.id_in_group == 1 %}#}
+{#        <p>#}
+{#            <tr><td> Сумма взносов участника 2 равна </td><td> {{ p2_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 3 равна </td><td> {{ p3_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 4 равна </td><td> {{ p4_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 5 равна </td><td> {{ p5_contr}} </td></tr>#}
+{#        </p>#}
+{#        {% elif player.id_in_group == 2 %}#}
+{#         <p>#}
+{#            <tr><td> Сумма взносов участника 1 равна </td><td> {{ p1_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 3 равна </td><td> {{ p3_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 4 равна </td><td> {{ p4_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 5 равна </td><td> {{ p5_contr}} </td></tr>#}
+{#         </p>#}
+{#        {% elif player.id_in_group == 3 %}#}
+{#         <p>#}
+{#            <tr><td> Сумма взносов участника 1 равна </td><td> {{ p1_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 2 равна </td><td> {{ p2_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 4 равна </td><td> {{ p4_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 5 равна </td><td> {{ p5_contr}} </td></tr>#}
+{#         </p>#}
+{#        {% elif player.id_in_group == 4 %}#}
+{#         <p>#}
+{#            <tr><td> Сумма взносов участника 1 равна </td><td> {{ p1_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 2 равна </td><td> {{ p2_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 3 равна </td><td> {{ p3_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 5 равна </td><td> {{ p5_contr}} </td></tr>#}
+{#         </p>#}
+{#        {% else %}#}
+{#         <p>#}
+{#            <tr><td> Сумма взносов участника 1 равна </td><td> {{ p1_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 2 равна </td><td> {{ p2_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 3 равна </td><td> {{ p3_contr}} </td></tr>#}
+{#            <tr><td> Сумма взносов участника 4 равна </td><td> {{ p4_contr}} </td></tr>#}
+{#         </p>#}
+{#    {% endif %}#}
+
+{#    {% for p in group.get_others_in_group %}#}
+{##}
+{#        <tr><td>Накопленный доход участника {{p}}</td> <td>{{ p.my_payoff}}</td></tr>#}
+{#        <tr><td>Взносы участника {{ p }}</td><td> {{ p.my_conribution }} </td></tr>#}
+{#    {% endfor %}#}
+
+{#    </table> #}
+
+<br><br>
+
+
+    {% next_button %}
+{% endblock %}
