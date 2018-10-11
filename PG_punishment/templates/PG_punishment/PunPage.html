@@ -2,49 +2,48 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Принятие решений III - вы участник {{ player.id_in_group }}, идет раунд {{ current_round }}.
+Принятие решений III - вы участник {{ player.id_in_group }}, идет раунд {{ player.round_number }}.
 {% endblock %}
 
 {% block content %}
 
 
-    <br><br>
+<div class="card">
 
-    <b>Вы видите взносы и доходы каждого участника, и можете принять решения о вычетах из доходов каждого из Ваших
-        партнеров в {{ current_round }} раунде в размере от 0 (нет вычета) до 4 (максимальный вычет).
+    <div class="card-body">
+        Вы видите взносы и доходы каждого участника, и можете принять решения о вычетах из доходов каждого из Ваших
+        партнеров в {{ player.round_number }} раунде в размере от 0 (нет вычета) до {{Constants.pun_endowment}}
+        (максимальный вычет).
         Вы потратите 0.2 за каждую единицу вычета у каждого другого участника. Если вы ни к кому не хотите применять
         вычет, просто нажмите "Далее"
-    </b>
-
-    <br>
-
-    <table class="table-condensed" style="width:500px; margin-top:20px;">
-
-        <tr><td> </td><td> Накопленный доход </td><td> Сумма взносов </td></tr>
-        <tr><td> Участник 1 </td><td> {{ me_in_all_rounds_1}} </td><td> {{ p1_contr}} </td></tr>
-        <tr><td> Участник 2 </td><td> {{ me_in_all_rounds_2}} </td><td> {{ p2_contr}} </td></tr>
-        <tr><td> Участник 3 </td><td> {{ me_in_all_rounds_3}} </td><td> {{ p3_contr}} </td></tr>
-        <tr><td> Участник 4 </td><td> {{ me_in_all_rounds_4}} </td><td> {{ p4_contr}} </td></tr>
-        <tr><td> Участник 5 </td><td> {{ me_in_all_rounds_5}} </td><td> {{ p5_contr}} </td></tr>
-
-        <td><td></td></tr>
-
-    </table>
-
-    <p>
-
-        {% for field in form %}
-            {% formfield field %}
-        {% endfor %}
+    </div>
+</div>
 
 
+<table class="table table-sripped" style="width:500px; margin-top:20px;">
+    <thead>
 
-{#        {% formfield player.pun_1 with label="Вычеты из доходов участника 1 (от 0 до 4)" %}#}
-{#        {% formfield player.pun_2 with label="Вычеты из доходов участника 2 (от 0 до 4)" %}#}
-{#        {% formfield player.pun_3 with label="Вычеты из доходов участника 3 (от 0 до 4)" %}#}
-{#        {% formfield player.pun_4 with label="Вычеты из доходов участника 4 (от 0 до 4)" %}#}
-{#        {% formfield player.pun_5 with label="Вычеты из доходов участника 5 (от 0 до 4)" %}#}
+    <td></td>
+    <td> Накопленный доход:</td>
+    <td> Сумма взносов:</td>
+    <td>Вычет:</td>
+
+    </thead>
+    <tbody>
+    {% for field, i in data %}
+    <tr>
+        <td> Участник {{forloop.counter}}</td>
+        <td> {{ i.pgg_payoff}}</td>
+        <td> {{ i.contribution}}</td>
+        <td> {% formfield field label='' %}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<p>
+
 
     {% next_button %}
 
-{% endblock %}
+    {% endblock %}

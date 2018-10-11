@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42d24866-a77d-4d9b-b5ee-38f96c43b1c3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PG_punishment/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PG_punishment/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Contribution.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PG_punishment/templates/PG_punishment/PunPage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Results0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Results1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PG_punishment/templates/PG_punishment/ResultsSummary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PG_punishment/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PG_punishment/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/PG_try/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/PG_try/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/PG_try/templates/PG_try/Contribution.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/PG_try/templates/PG_try/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/PG_try/templates/PG_try/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/PG_try/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/PG_try/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/Procfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/_rooms/econ101.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/_static/global/instructions.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/_static/global/matrix.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/_templates/global/Base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/_templates/global/MTurkPreview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bargaining/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bargaining/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bargaining/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bargaining/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bargaining/templates/bargaining/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bargaining/templates/bargaining/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bargaining/templates/bargaining/Request.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bargaining/templates/bargaining/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bargaining/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bargaining/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/battle_of_the_sexes/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/battle_of_the_sexes/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/battle_of_the_sexes/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/battle_of_the_sexes/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/battle_of_the_sexes/templates/battle_of_the_sexes/Decide.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/battle_of_the_sexes/templates/battle_of_the_sexes/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/battle_of_the_sexes/templates/battle_of_the_sexes/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/battle_of_the_sexes/templates/battle_of_the_sexes/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/battle_of_the_sexes/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/battle_of_the_sexes/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/beauty/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/beauty/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/beauty/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/beauty/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/beauty/templates/beauty/Guess.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/beauty/templates/beauty/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/beauty/templates/beauty/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/beauty/templates/beauty/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/beauty/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/beauty/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bertrand/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bertrand/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bertrand/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bertrand/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bertrand/templates/bertrand/Decide.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bertrand/templates/bertrand/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bertrand/templates/bertrand/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bertrand/templates/bertrand/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bertrand/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bertrand/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/consumers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/pages.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/routing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/static/italiantutorial/js/init_widgets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/static/italiantutorial/js/jquery-2.2.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/static/italiantutorial/js/jquery-3.2.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/static/italiantutorial/js/jquery.animate-colors-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/static/italiantutorial/js/jquery.animate-colors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/static/italiantutorial/js/jquery.color-2.1.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/static/italiantutorial/js/jquery.countdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/static/italiantutorial/js/jquery.timeago.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/static/italiantutorial/js/jsondiffpatch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/static/italiantutorial/js/reconnecting-websocket.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/static/italiantutorial/js/table-utils2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/ContributeA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/ContributeB.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/Feedback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/MyPage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/Payoffs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/Prize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/Question.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/ResultsJudge.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/ResultsPlayerA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/ResultsPlayerB.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/Start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/StartA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/StartB.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/StartC.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/Welcome.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/WorkTryOut.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/templates/bribery_effort_base_RU/js_work_page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/bribery_effort_base_RU/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/common_value_auction/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/common_value_auction/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/common_value_auction/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/common_value_auction/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/common_value_auction/templates/common_value_auction/Bid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/common_value_auction/templates/common_value_auction/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/common_value_auction/templates/common_value_auction/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/common_value_auction/templates/common_value_auction/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/common_value_auction/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/common_value_auction/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/cournot/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/cournot/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/cournot/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/cournot/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/cournot/templates/cournot/Decide.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/cournot/templates/cournot/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/cournot/templates/cournot/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/cournot/templates/cournot/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/cournot/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/cournot/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/dictator/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/dictator/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/dictator/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/dictator/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/dictator/templates/dictator/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/dictator/templates/dictator/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/dictator/templates/dictator/Offer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/dictator/templates/dictator/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/dictator/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/dictator/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/lemon_market/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/lemon_market/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/lemon_market/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/lemon_market/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/lemon_market/templates/lemon_market/FinalResults.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/lemon_market/templates/lemon_market/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/lemon_market/templates/lemon_market/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/lemon_market/templates/lemon_market/Production.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/lemon_market/templates/lemon_market/Purchase.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/lemon_market/templates/lemon_market/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/lemon_market/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/lemon_market/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/matching_pennies/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/matching_pennies/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/matching_pennies/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/matching_pennies/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/matching_pennies/templates/matching_pennies/Choice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/matching_pennies/templates/matching_pennies/ResultsSummary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/matching_pennies/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/matching_pennies/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/my_public_goods/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/my_public_goods/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/my_public_goods/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/my_public_goods/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/my_public_goods/templates/my_public_goods/Contribution.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/my_public_goods/templates/my_public_goods/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/my_public_goods/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/my_public_goods/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/payment_info/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/payment_info/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/payment_info/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/payment_info/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/payment_info/templates/payment_info/PaymentInfo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/payment_info/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/payment_info/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/principal_agent/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/principal_agent/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/principal_agent/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/principal_agent/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/principal_agent/templates/principal_agent/Accept.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/principal_agent/templates/principal_agent/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/principal_agent/templates/principal_agent/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/principal_agent/templates/principal_agent/Offer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/principal_agent/templates/principal_agent/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/principal_agent/templates/principal_agent/WorkEffort.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/principal_agent/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/principal_agent/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/prisoner/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/prisoner/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/prisoner/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/prisoner/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/prisoner/templates/prisoner/Decision.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/prisoner/templates/prisoner/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/prisoner/templates/prisoner/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/prisoner/templates/prisoner/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/prisoner/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/prisoner/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods/templates/public_goods/Contribute.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods/templates/public_goods/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods/templates/public_goods/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods/templates/public_goods/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods_simple/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods_simple/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods_simple/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods_simple/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods_simple/templates/public_goods_simple/Contribute.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods_simple/templates/public_goods_simple/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods_simple/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/public_goods_simple/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/quiz/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/quiz/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/quiz/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/quiz/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/quiz/quiz.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/quiz/templates/quiz/Question.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/quiz/templates/quiz/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/quiz/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/quiz/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/real_effort/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/real_effort/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/real_effort/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/real_effort/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/real_effort/static/real_effort/paragraphs/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/real_effort/static/real_effort/paragraphs/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/real_effort/templates/real_effort/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/real_effort/templates/real_effort/Transcribe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/real_effort/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/real_effort/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/requirements_base.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/requirements_heroku.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/stackelberg/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/stackelberg/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/stackelberg/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/stackelberg/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/stackelberg/templates/stackelberg/ChoiceOne.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/stackelberg/templates/stackelberg/ChoiceTwo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/stackelberg/templates/stackelberg/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/stackelberg/templates/stackelberg/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/stackelberg/templates/stackelberg/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/stackelberg/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/stackelberg/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/survey/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/survey/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/survey/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/survey/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/survey/templates/survey/CognitiveReflectionTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/survey/templates/survey/Demographics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/survey/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/survey/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/traveler_dilemma/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/traveler_dilemma/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/traveler_dilemma/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/traveler_dilemma/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/traveler_dilemma/templates/traveler_dilemma/Claim.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/traveler_dilemma/templates/traveler_dilemma/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/traveler_dilemma/templates/traveler_dilemma/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/traveler_dilemma/templates/traveler_dilemma/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/traveler_dilemma/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/traveler_dilemma/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust/templates/trust/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust/templates/trust/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust/templates/trust/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust/templates/trust/Send.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust/templates/trust/SendBack.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust_simple/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust_simple/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust_simple/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust_simple/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust_simple/templates/trust_simple/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust_simple/templates/trust_simple/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust_simple/templates/trust_simple/Send.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust_simple/templates/trust_simple/SendBack.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust_simple/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/trust_simple/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/ultimatum/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/ultimatum/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/ultimatum/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/ultimatum/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/ultimatum/templates/ultimatum/Accept.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/ultimatum/templates/ultimatum/AcceptStrategy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/ultimatum/templates/ultimatum/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/ultimatum/templates/ultimatum/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/ultimatum/templates/ultimatum/Offer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/ultimatum/templates/ultimatum/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/ultimatum/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/ultimatum/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/static/vickrey_auction/jquery-ui/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/templates/vickrey_auction/Bid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/templates/vickrey_auction/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/templates/vickrey_auction/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/templates/vickrey_auction/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/vickrey_auction/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/volunteer_dilemma/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/volunteer_dilemma/_builtin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/volunteer_dilemma/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/volunteer_dilemma/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/volunteer_dilemma/templates/volunteer_dilemma/Decision.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/volunteer_dilemma/templates/volunteer_dilemma/Instructions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/volunteer_dilemma/templates/volunteer_dilemma/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/volunteer_dilemma/templates/volunteer_dilemma/Results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/volunteer_dilemma/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oTree-master/volunteer_dilemma/views.py" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.idea/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="314" column="34" lean-forward="false" selection-start-line="314" selection-start-column="34" selection-end-line="314" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PG_punishment/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pages.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PG_punishment/pages.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="58" column="89" lean-forward="false" selection-start-line="58" selection-start-column="89" selection-end-line="58" selection-end-column="89" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultsSummary.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PG_punishment/templates/PG_punishment/ResultsSummary.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Results.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Results.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5">
+              <caret line="4" column="100" lean-forward="false" selection-start-line="4" selection-start-column="100" selection-end-line="4" selection-end-column="100" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Results.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PG_standard/templates/PG_standard/Results.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1189">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Results1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Results1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contribution.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Contribution.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instructions.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Instructions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PunPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PG_punishment/templates/PG_punishment/PunPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>payoff</find>
+      <find>current</find>
+      <find>wait_fo</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/oTree-master/settings.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Contribution.html" />
+        <option value="$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Results.html" />
+        <option value="$PROJECT_DIR$/PG_punishment/models.py" />
+        <option value="$PROJECT_DIR$/PG_punishment/templates/PG_punishment/PunPage.html" />
+        <option value="$PROJECT_DIR$/PG_punishment/pages.py" />
+        <option value="$PROJECT_DIR$/PG_punishment/templates/PG_punishment/ResultsSummary.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="34" />
+    <option name="y" value="23" />
+    <option name="width" value="1406" />
+    <option name="height" value="826" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pgg_bel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgg_bel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgg_bel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgg_bel" type="462c0819:PsiDirectoryNode" />
+              <item name="PG_punishment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgg_bel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgg_bel" type="462c0819:PsiDirectoryNode" />
+              <item name="PG_punishment" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgg_bel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgg_bel" type="462c0819:PsiDirectoryNode" />
+              <item name="PG_punishment" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="PG_punishment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgg_bel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgg_bel" type="462c0819:PsiDirectoryNode" />
+              <item name="PG_standard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgg_bel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgg_bel" type="462c0819:PsiDirectoryNode" />
+              <item name="PG_standard" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgg_bel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgg_bel" type="462c0819:PsiDirectoryNode" />
+              <item name="PG_standard" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="PG_standard" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oTree-master" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42d24866-a77d-4d9b-b5ee-38f96c43b1c3" name="Default" comment="" />
+      <created>1539243648119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539243648119</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="34" y="23" width="1406" height="826" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/oTree-master/PG_punishment/templates/PG_punishment/Results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree-master/PG_punishment/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree-master/PG_punishment/pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree-master/PG_punishment/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="69" column="25" lean-forward="false" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree-master/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="321" column="26" lean-forward="false" selection-start-line="321" selection-start-column="26" selection-end-line="321" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Results0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="314" column="34" lean-forward="false" selection-start-line="314" selection-start-column="34" selection-end-line="314" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Instructions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Contribution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Results1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PG_standard/templates/PG_standard/Results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1189">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PG_punishment/templates/PG_punishment/PunPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PG_punishment/templates/PG_punishment/Results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="4" column="100" lean-forward="false" selection-start-line="4" selection-start-column="100" selection-end-line="4" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PG_punishment/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PG_punishment/pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="58" column="89" lean-forward="false" selection-start-line="58" selection-start-column="89" selection-end-line="58" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PG_punishment/templates/PG_punishment/ResultsSummary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

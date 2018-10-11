@@ -7,21 +7,9 @@
 
 {% block content %}
 
-{#    <table class="table">#}
-{#        <tr>#}
-{#            <th>Round</th>#}
-{#            <th>Player and outcome</th>#}
-{#        </tr>#}
-{#        {% for p in player_in_all_rounds %}#}
-{#            <tr>#}
-{#                <td>Вы участник You were the {{ p.role }} and {% if p.is_winner %} won {% else %} lost {% endif %}</td>#}
-{#            </tr>#}
-{#        {% endfor %}#}
-{#    </table>#}
 
     <p>
-{#        The paying round was {{ paying_round }}.#}
-        В этой игре вы заработали {{ total_payoff}} рублей.
+        В этой игре вы заработали {{ participant.payoff}} рублей.
 
         <br> <br>
 
@@ -29,17 +17,15 @@
 
         <br> <br>
 
-        К вам были применены вычеты на общую сумму {{ total_punishment }}
+        К вам были применены вычеты на общую сумму {{ total_punishment_received }}
 
         <br> <br>
-        На ваши вычеты вы потратили {{ total_puncost }}
-{#        {% if global.outcome == 1 %}#}
-{#        {% else %}#}
+        На ваши вычеты вы потратили {{ total_punishment_sent }}
 
         <br> <br>
 
-        Ваш итоговый выигрыш составил {{ total_profit}}
-{#        {% endif %}#}
+        Ваш итоговый выигрыш составил {{ participant.payoff}}
+
 
         <br> <br>
 

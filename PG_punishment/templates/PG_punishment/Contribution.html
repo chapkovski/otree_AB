@@ -4,7 +4,7 @@
 {% block title %}  Принятие решений III: раунд {{ current_round }} из {{ Constants.num_rounds }}  {% endblock %}
 
 {% block content %}
-    {% include 'PG_standard/Instructions.html' %}
+    {% include 'PG_punishment/Instructions.html' %}
 
  <p>
 <!--    <b>Это игра на создание общественного блага.</b> -->
@@ -35,7 +35,7 @@
 </p>
 
 
-{% formfield player.contribution with label="Сколько Вы внесете на общий счет?" %}
+{% formfield player.contribution  label="Сколько Вы внесете на общий счет?" %}
 
 {% next_button %}
 
