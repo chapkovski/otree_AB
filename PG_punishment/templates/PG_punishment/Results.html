@@ -43,7 +43,7 @@
 </table>
 
 
-<h3>Результаты всех участников</h3>
+<h3>Результаты других участников</h3>
 
 <br>
 
@@ -53,11 +53,11 @@
         <th> Накопленный доход</th>
         <th> Сумма взносов</th>
     </thead>
-    {% for p in group.get_players %}
+    {% for p, payoff, contribution in other_players_data %}
     <tr>
         <td> Участник {{p.id_in_group}}</td>
-        <td> {{ p.payoff}}</td>
-        <td> {{ p.contribution}}</td>
+        <td> {{ payoff }}</td>
+        <td> {{ contribution }}</td>
     </tr>
     {% endfor %}
 

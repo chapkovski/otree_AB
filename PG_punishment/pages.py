@@ -48,7 +48,12 @@ class Results1(Page):
 
 
 class Results(Page):
-    ...
+    def vars_for_template(self):
+        others = self.player.get_others_in_group()
+        payoffs = [sum([a.payoff for a in i.in_all_rounds()]) for i in others]
+        contributions = [sum([a.contribution for a in i.in_all_rounds()]) for i in others]
+        return {'other_players_data': zip(others, payoffs, contributions)}
+
 
 class ResultsSummary(Page):
     def is_displayed(self):
